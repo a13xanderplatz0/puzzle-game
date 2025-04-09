@@ -61,7 +61,7 @@ void play(int table[3][3]) {
     bool win = false;
     while (!win) {
         printTable(table);
-        cout << "\nUsa WASD para mover el bloque vacío (0). w=arriba, s=abajo, a=izquierda, d=derecha\n> ";
+        cout << "\nPRECIONE W-A-S-D \n> ";
         char move;
         cin >> move;
 
